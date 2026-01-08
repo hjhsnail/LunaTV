@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "pnpm gen:manifest && next dev -H 0.0.0.0",
     "build": "pnpm gen:manifest && next build",
+    "pages:build": "pnpm gen:manifest && next build && next-on-pages",
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "eslint src --fix && pnpm format",
